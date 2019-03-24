@@ -1,0 +1,253 @@
+package firstPackage;
+
+
+//1)The current year and the year in which the employee joined the
+//organization are entered through the keyboard. If the number of years for
+//which the employee has
+//# served the organization is greater than 3 then a bonus of Rs. 2500/- is
+//given to the employee. If the years of service are not greater
+//# than 3, then the program should do nothing.
+
+//public class O3_IF_Else {
+//	public static void main(String[] args) {
+//		int work_time = 4;
+//
+//		if (work_time > 3) {
+//			System.out.println("You are eligible for bonus of Rs. 2500/");
+//		} else {
+//			System.out.println("Opps ! You are eligible for bonus");
+//		}
+//	}
+//}
+
+
+
+//============================================
+
+
+
+//# 2) The marks obtained by a student in 5 different subjects are input
+//through the keyboard. The student gets a
+//# division as per the following rules: Percentage above or equal to 60 -
+//First division
+//# Percentage between 50 and 59 - Second division
+//# Percentage between 40 and 49 - Third division
+//# Percentage less than 40 - Fail
+//# Write a program to calculate the division obtained by the student
+
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//	int marks = 75;
+//	if ((marks >=60)&& (marks <=100)) {
+//		System.out.println("First division");
+//	} else if ((marks >=50)&& (marks <=59)) {
+//		System.out.println("Second division");
+//	} else if ((marks >=40)&& (marks <=49)) {
+//		System.out.println("Third division");
+//	} else if ((marks >=0)&& (marks <=39)) {
+//		System.out.println("Fail");
+//	} else {
+//		System.out.println("invalid grade");
+//	}
+//}
+//}
+
+//========================================================
+
+
+//# 3) A company insures its drivers in the following cases:
+//# If the driver is married.
+//# If the driver is unmarried, male & above 30 years of age.
+//# If the driver is unmarried, female & above 25 years of age.
+//# In all other cases the driver is not insured. If the marital status, sex
+//and age of the driver are the inputs, write a program to determine
+//# whether the driver is to be insured or not.
+  
+
+
+
+
+
+//I can't do it !!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+  //===================================================
+
+//# 4) If cost price and selling price of an item is input through the
+//keyboard, write a program to determine whether the seller has
+//# made profit or incurred loss. Also determine how much profit he made or
+//loss he incurred.
+
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//int costPrice=150;
+//int sellPrice=85;
+//
+//	
+//	if (sellPrice > costPrice) {
+//		System.out.println("It made profit !");
+//		System.out.println(("Total profit is $" ) + (sellPrice - costPrice));
+//
+//	}else {
+//		System.out.println("It made Loss !");
+//		System.out.println(("Total loss is $" ) + (sellPrice - costPrice));
+//	}
+//	
+//	System.out.println("After the if else");
+//}
+//}
+
+
+//========================================
+
+
+//# 5) Any integer is input through the keyboard. Write a program to find out
+//whether it is an odd number or even number.
+
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//int a= 50;
+//int b=2;
+//
+//	
+//	if (a % b==0) {
+//		System.out.println("it is an even number!");
+//		
+//	}else {
+//		System.out.println("It is an odd number");
+//
+//	}
+//	
+//	System.out.println("After the if else");
+//}
+//}
+
+
+//==========================================
+
+//# 6) Any year is input through the keyboard. Write a program to determine
+//whether the year is a leap year or not.
+//# (Hint: Use the % (modulus) operator)
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//int a= 20201;
+//int b=4;
+//
+//	
+//	if (a % b==0) {
+//		System.out.println("The year is a leap year");
+//		
+//	}else {
+//		System.out.println("The year is not a leap year");
+//
+//	}
+//	
+//	System.out.println("After the if else");
+//}
+//}
+
+//=====================================================
+
+//# 8) A five-digit number is entered through the keyboard. Write aprogram to
+//obtain the reversed number and to determine
+//# whether the original and reversed numbers are equal or not.
+
+
+
+
+//I can't do it !!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+//==============================================================
+
+// # 9) If the ages of Ram, Shyam and Ajay are input through the keyboard, write
+//a program to determine the youngest of the
+//# three.
+
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//
+//int A= 17;
+//int R= 25;
+//int  S= 34;
+//
+//	
+//    if ((A < R) && (A < S)) {
+//		System.out.println("Ajay is youngest of the three.");
+//		
+//	}  else if((R < A) && (R < S)) {
+//		System.out.println("Ram is youngest of the three.");
+//
+//	}else if ((S < R) && (S < A)){
+//		System.out.println("Shyam is youngest of the three.");
+//
+//	}
+//	
+//	System.out.println("After the if else");
+//}
+//}
+
+//============================================================================
+
+//# 10) Write a program to check whether a triangle is valid or not, when the
+//three angles of the triangle are entered through the
+//# keyboard. A triangle is valid if the sum of all the three angles is equal
+//to 180 degrees.
+
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//
+//int a= 90;
+//int b= 45;
+//int c= 45;
+//int t=180;
+//
+//	
+//  if ((a+b+c==t)) {
+//		System.out.println("It is a valid triangle");
+//		
+//	}  else  {
+//		System.out.println("Invalid triangle");
+//
+//	}
+//	System.out.println("After the if else");
+//}
+//}
+
+
+//==========================================================
+
+
+//11)Find the absolute value of a number enter
+
+//public class O3_IF_Else {
+//public static void main(String[] args) {
+//
+//int num= -90;
+//int answer;
+//answer = Math.abs(num);
+//System.out.println("The absolute of " + num + " is " + answer);
+//
+//}
+//}
+
+
+//============================================================================
+//==============================================================================
+
