@@ -1,0 +1,817 @@
+package assignment;
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		
+//
+//	}
+//
+//}
+
+//===================================================================================================================
+
+//1)The current year and the year in which the employee joined the
+//organization are entered through the keyboard. If the number of years for
+//which the employee has
+//# served the organization is greater than 3 then a bonus of Rs. 2500/- is
+//given to the employee. If the years of service are not greater
+//# than 3, then the program should do nothing.
+//
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input =new Scanner(System.in);
+//		System.out.print("Enter How long you work: ");
+//		float MyInt =input.nextFloat();
+//		bonus(MyInt);
+//	}
+//	public static void bonus(float MyInt){
+//		
+//		
+//
+//		
+//		
+//		System.out.println("You  Entered " + MyInt);
+//		
+//		float work_time = 3;
+//	
+//		if (MyInt > 3) {
+//			System.out.println("You are eligible for bonus of Rs. 2500/");
+//		} else {
+//			System.out.println("Opps ! You are not eligible for bonus");
+//		}
+//		
+//	}
+//	
+//
+//}
+
+//================================================
+
+
+
+
+//# 2) The marks obtained by a student in 5 different subjects are input
+//through the keyboard. The student gets a
+//# division as per the following rules: Percentage above or equal to 60 -
+//First division
+//# Percentage between 50 and 59 - Second division
+//# Percentage between 40 and 49 - Third division
+//# Percentage less than 40 - Fail
+//# Write a program to calculate the division obtained by the student
+
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input =new Scanner(System.in);
+//		System.out.print("Enter your mark Percentage: ");
+//		float MyMark =input.nextFloat();
+//		grade(MyMark);
+//	}
+//	
+//
+//	public static void grade(float MyMark ) {
+//
+//
+//		
+//		String a="You got ";
+//
+//		if ((MyMark >=60)&& (MyMark <=100)) {
+//			System.out.println(a + "First division");
+//		} else if ((MyMark >=50)&& (MyMark <=59)) {
+//			System.out.println(a + "Second division");
+//		} else if ((MyMark >=40)&& (MyMark <=49)) {
+//			System.out.println(a + "Third division");
+//		} else if ((MyMark >=0)&& (MyMark <=39)) {
+//			System.out.println(a + " Fail");
+//		} else {
+//			System.out.println("invalid grade");
+//		}
+//		
+//	}
+//
+//}
+
+//=============================================
+
+//# 3) A company insures its drivers in the following cases:
+//# If the driver is married.
+//# If the driver is unmarried, male & above 30 years of age.
+//# If the driver is unmarried, female & above 25 years of age.
+//# In all other cases the driver is not insured. If the marital status, sex
+//and age of the driver are the inputs, write a program to determine
+//# whether the driver is to be insured or not.
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter marital status: ");
+//		String maritalstatus = input.next();
+//		driverInsur(maritalstatus);
+//
+//	}
+//	public static void driverInsur(String maritalstatus){
+//		Scanner input = new Scanner(System.in);
+//
+//		//String sex = input.next();
+//		
+//		if (maritalstatus.equals("married")) {
+//			System.out.println("you are insured");
+//		}  else if (maritalstatus.equals("unmarried")){
+//			
+//					System.out.print("Enter sex :");
+//					String sex = input.next();
+//					
+//					System.out.print("Enter age :");
+//					int age = input.nextInt();
+//			
+//					if ((sex.equals("male") && age > 30)||(sex.contentEquals("female") && age > 25)) {
+//						System.out.println("you are insured");
+//					}else 
+//						System.out.println(" you are not insured");
+//					}
+//		
+//	}
+//
+//}
+
+//==============================================
+
+//# 4) If cost price and selling price of an item is input through the
+//keyboard, write a program to determine whether the seller has
+//# made profit or incurred loss. Also determine how much profit he made or
+//loss he incurred.
+
+
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		
+//		Scanner input = new Scanner(System.in);
+//		
+//			System.out.print("Enter sellPrice :");
+//			double sellPrice = input.nextDouble();
+//		
+//			System.out.print("Enter costPrice :");
+//			double costPrice = input.nextDouble();
+//			costSell(costPrice, sellPrice);
+//
+//	}
+//	public static void costSell(double costPrice,double sellPrice){
+//		
+//
+//		
+//				if (sellPrice > costPrice) {
+//					System.out.println("It made profit !");
+//					System.out.println(("Total profit is $" ) + (sellPrice - costPrice));
+//		
+//				}else {
+//					System.out.println("It made Loss !");
+//					System.out.println(("Total loss is $" ) + (sellPrice - costPrice));
+//				}
+//				
+//				System.out.println("After the if else");
+//		
+//	}
+//	
+//
+//}
+
+//==============================================
+
+//# 5) Any integer is input through the keyboard. Write a program to find out
+//whether it is an odd number or even number.
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter a number :");
+//		int num1 = input.nextInt();
+//		
+//		oddEven(num1);
+//		
+//
+//	}
+//	public static void oddEven(int num1){
+//		
+//	
+//		
+//
+//		
+//			if (num1 % 2==0) {
+//				System.out.println("it is an even number!");
+//				
+//			}else {
+//				System.out.println("It is an odd number");
+//		
+//			}
+//			
+//			System.out.println("After the if else");
+//		}
+//		
+//
+//
+//		
+//	}
+//	
+
+
+
+//==============================================
+
+//# 6) Any year is input through the keyboard. Write a program to determine
+//whether the year is a leap year or not.
+//# (Hint: Use the % (modulus) operator)
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		
+//		Scanner input = new Scanner(System.in);
+//	
+//		System.out.print("Enter the year : ");
+//		int year = input.nextInt();
+//		leapYear(year);
+//
+//	}
+//	public static void leapYear(int year){
+//		
+//	
+//			
+//			if (year % 4==0) {
+//				System.out.println("The year is a leap year");
+//				
+//			}else {
+//				System.out.println("The year is not a leap year");
+//		
+//			}
+//			
+//			System.out.println("After the if else");
+//		}
+//}
+		
+	
+	
+
+
+
+//==============================================
+
+//# 9) If the ages of Ram, Shyam and Ajay are input through the keyboard, write
+//a program to determine the youngest of the
+//# three.
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter age of Ram  :");
+//		int Ram = input.nextInt();	
+//		
+//		System.out.print("Enter age of Shyam  :");
+//		int Shyam = input.nextInt();	
+//		
+//		System.out.print("Enter age of Ajay  :");
+//		int Ajay = input.nextInt();	
+//		AgeCompare(Ram, Shyam, Ajay);
+//
+//	}
+//	public static void AgeCompare(int Ram,int Shyam,int Ajay ){
+//		
+//
+//	
+//
+//	
+//  if ((Ajay < Ram) && (Ajay < Shyam)) {
+//		System.out.println("Ajay is youngest of the three.");
+//		
+//	}  else if((Ram < Ajay) && (Ram < Shyam)) {
+//		System.out.println("Ram is youngest of the three.");
+//
+//	}else if ((Shyam < Ram) && (Shyam < Ajay)){
+//		System.out.println("Shyam is youngest of the three.");
+//
+//	}
+//	
+//	System.out.println("After the if else");
+//		
+//	}
+//	
+//
+//}
+
+//==============================================
+
+//# 10) Write a program to check whether a triangle is valid or not, when the
+//three angles of the triangle are entered through the
+//# keyboard. A triangle is valid if the sum of all the three angles is equal
+//to 180 degrees.
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.print("Enter value of angle_A  :");
+//		float angle_A  = input.nextFloat();
+//		
+//		System.out.print("Enter value of angle_B  :");
+//		float angle_B  = input.nextFloat();
+//		
+//		System.out.print("Enter value of angle_C  :");
+//		float angle_C  = input.nextFloat();
+//		triangle(angle_A, angle_B,angle_C);
+//
+//	}
+//	public static void triangle(float a,float b,float c){
+//		
+//	
+//	
+//	
+//	int t=180;
+//	
+//		
+//	  if ((a + b + c ==t)) {
+//			System.out.println("It is a valid triangle");
+//			System.out.println("Total of three angles is : " + (a + b + c ));
+//			
+//		}  else  {
+//			System.out.println("Invalid triangle");
+//	
+//		}
+//		System.out.println("After the if else");
+//		
+//	}
+//	
+//
+//}
+
+
+//=========================================================
+
+//11.Write a Java program to sum values of an array.
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		  
+//
+//		  sumValue(n);
+//
+//	}
+//	public static void sumValue(int n){
+//		Scanner sc=new Scanner(System.in);
+//		
+//		  int a[] = new int[n];
+//		  System.out.println("Enter an array value : ");
+//
+//	  
+//		  for(int i=0;i<n;i++) {
+//			  a[i]=sc.nextInt();  
+//		  }
+//		
+//		  for(int i=0;i<n;i++) {
+//			  System.out.println(a[i]);  
+//		  }
+//		  
+//		int sum = 0;
+//		for (int counter=0;counter<a.length ; counter++) {
+//		    sum =sum + a[counter];
+//		}
+//	
+//	
+//
+//
+//		System.out.println("The sum is : "+ sum);
+//	
+//	}
+//	
+//
+//}
+//
+////================================================
+
+////12.Write a Java program to find max value of an integer array.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		  max_value(n);
+//		  
+//
+//	}
+//	public static void max_value(int n){
+//		
+//		Scanner sc=new Scanner(System.in);
+//	  
+//		  int a[] = new int[n];//Declare an array
+//		  System.out.println("Enter an array value : ");
+//		  
+//		  
+//		  //Inpute array value
+//		  for(int i=0;i<n;i++) {
+//			  a[i]=sc.nextInt();  
+//		  }
+//	
+//		int max = a [0]; 
+//	
+//		for (int i = 1; i < a.length; i++)  {
+//			if (a[i] > max) 
+//		max = a[i]; }
+//		System.out.println("max value  is : " + max);
+//
+//	}
+//	
+//
+//}
+
+////================================================
+//
+//
+////13.Write a Java program to find min value of an integer array.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		  min_value(n);
+//
+//	}
+//		public static void min_value(int n){
+//			
+//			Scanner sc=new Scanner(System.in);
+//			  
+//			  int a[] = new int[n];//Declare an array
+//			  System.out.println("Enter an array value : ");
+//			  
+//			  
+//			  //Inpute array value
+//			  for(int i=0;i<n;i++) {
+//				  a[i]=sc.nextInt();  
+//			  }
+//		
+//			int min = a[0]; 
+//		
+//			for (int i = 1; i < a.length; i++)  {
+//				if (a[i] < min) 
+//			min = a[i]; }
+//			System.out.println("min value  is : " + min);
+//		
+//		
+//	}
+//	
+//
+//}
+//
+////================================================
+
+////14.Write a Java program to calculate the average value of array elements.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		  avg_value(n);
+//
+//	}
+//		public static void avg_value(int n){
+//			Scanner sc=new Scanner(System.in);
+//			  
+//			  int a[] = new int[n];//Declare an array
+//			  System.out.println("Enter an array value : ");
+//			  
+//			  
+//			  //Inpute array value
+//			  for(int i=0;i<n;i++) {
+//				  a[i]=sc.nextInt();  
+//			  }	
+//			
+//		       int sum = 0;
+//		       for(int i=0; i < a.length ; i++)
+//		        sum = sum + a[i];
+//		       //calculate average value
+//		        double average = sum / a.length;
+//		        System.out.println("Average value of the array elements is : " + average); 
+//		
+//		
+//		
+//		}
+//	
+//
+//}
+
+////================================================
+
+
+////15.Write a Java program to test if an array contains a specific value.
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		
+//		// Define size of array
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		  specific_value(n);
+//
+//	}
+//		public static void specific_value(int n){
+//			boolean isPresent=false;
+//			Integer index=null;
+//			
+//			//===========Input initialization ======
+//			
+//			  
+//			  int a[] = new int[n];//Declare an array
+//				Scanner sc=new Scanner(System.in);
+//			  System.out.println("Enter an array value : ");
+//			   //Inpute array value
+//			  for(int i=0;i<n;i++) {
+//				  a[i]=sc.nextInt();  
+//			  }	
+//			
+//			  	//Input search value
+//			System.out.print("Enter the element to be searched : ");
+//			int number=sc.nextInt();
+//			
+//			for(int i=0;i<a.length;i++) {
+//				
+//				if(a[i]==number) {
+//					isPresent=true;
+//					index=i;
+//				}
+//			}
+//			
+//			if(isPresent==true) {
+//				System.out.println("The array contains the value= "+ number);
+//			}else {
+//				System.out.println("The array not contains the value= "+ number);
+//			}
+//		
+//		
+//		
+//		}
+//	
+//
+//}
+//
+////================================================
+
+////16.Write a Java program to find the index of an array element.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		index_num(n);
+//		
+//		
+//
+//	}
+//		public static void index_num(int n){
+//			
+//			boolean isPresent=false;
+//			Integer index=null;
+//			
+//			
+//			  
+//			  int a[] = new int[n];//Declare an array
+//			  Scanner sc=new Scanner(System.in);
+//			  System.out.println("Enter an array value : ");
+//			  
+//			  
+//			  //Inpute array value
+//			  for(int i=0;i<n;i++) {
+//				  a[i]=sc.nextInt();  
+//			  }	
+//		 
+//		
+//		
+//		
+//		System.out.print("Enter the element to be searched : ");
+//		int number=sc.nextInt();
+//		
+//		
+//		
+//			
+//			for(int i=0;i<a.length;i++) {
+//				
+//				if(a[i]==number) {
+//					isPresent=true;
+//					index=i;
+//				}
+//			}
+//			
+//			if(isPresent==true) {
+//				System.out.println("Element is present at index = "+ index);
+//			}else {
+//				System.out.println("Element is not present in array");
+//			}
+//		
+//		
+//		}
+//	
+//
+//}
+
+////================================================
+
+////17.Write a Java program to remove a specific element from an array.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=sc.nextInt();
+//		remove_value(n);
+//		
+//
+//	}
+//	public static void remove_value(int n){
+//		
+//		Scanner sc=new Scanner(System.in);
+//
+//		  
+//		  
+//		  int a[] = new int[n];//Declare an array
+//		  System.out.println("Enter an array value : ");
+//		  
+//		  
+//		  //Inpute array value
+//		  for(int i=0;i<n;i++) {
+//			  a[i]=sc.nextInt();  
+//		  }	
+//		  
+//		  
+//		
+//			System.out.print("Enter which value to get REMOVE: ");
+//			 int del_element=sc.nextInt();
+//		  
+//		  
+//		  //======================================
+//		  
+//		  
+//		  
+//	      //int[] a = {50, 60,70 ,80, 90};
+//	      //int del_element=60;
+//	      int count=0;
+//	      for(int i=0; i<a.length; i++) {
+//	    	  if(del_element==a[i]) {
+//	    		  for(int j=i;j<a.length-1;j++) {
+//	    			  a[j]=a[j+1];
+//	    		  }
+//	    		  count=count+1;
+//	    		  break;
+//	    	  }
+//	      }
+//	      
+//	     if(count==0) {
+//	    	 System.out.println("Element not found");
+//	     }else {
+//	    	 System.out.println("Element deleted successfully");
+//	    	 
+//	    	 for(int i = 0;i<a.length-1;i++) {
+//	    		 System.out.println(a[i]+ "");
+//		    	 
+//		     }
+//	     }
+//	     
+//	     
+//
+//
+//	
+//	}
+//	
+//
+//}
+//
+////================================================
+
+
+////18.Write a Java program to reverse an array of integer values
+
+
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		  Scanner in=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=in.nextInt();
+//		
+//		reverse_value(n);
+//		
+//
+//	}
+//	public static void reverse_value(int n){
+//
+//		  
+//		  //Declare an array
+//		  int array[] = new int[n];
+//		  Scanner in=new Scanner(System.in);
+//		  System.out.println("Enter an array value : ");
+//		  
+//		  //Inpute array value
+//		  for(int i=0;i<n;i++) {
+//			  array[i]=in.nextInt();
+//		  }
+//		  
+//		  int temp;
+//		  int start=0;
+//		  int end =n-1;
+//		  //1,2,3,4,5
+//		  while(start < end) {
+//			  temp=array[start];
+//			  array[start]=array[end];
+//			  array[end]=temp;
+//			  
+//			  start++;
+//			  end--;
+//			  
+//		  }
+//		  System.out.println("Printing  array after Reverse is : ");
+//		  for (int j=0; j<n;j++) {
+//		  System.out.println(array[j]);
+//	   }
+//	
+//	
+//	
+//	}
+//	
+//
+//}
+//
+////================================================
+
+
+////19.Write a Java program to find the duplicate values of an array of integer
+////values.
+//
+//
+//public class Function {
+//
+//	public static void main(String[] args) {
+//		
+//		  Scanner in=new Scanner(System.in);
+//		  System.out.print("Enter the size of an array : ");
+//		  int n=in.nextInt();
+//		  duplicate_value(n);
+//		
+//
+//	}
+//	public static void duplicate_value(int n){
+//		
+//		  Scanner in=new Scanner(System.in);
+//	
+//		  
+//		  //Declare an array
+//		  int array[] = new int[n];
+//		  
+//		  System.out.println("Enter an array value : ");
+//		  
+//		  //Inpute array value
+//		  for(int i=0;i<n;i++) {
+//			  array[i]=in.nextInt();
+//		  }
+//		
+//		
+//	
+//		for(int i=0;i<array.length-1;i++) {
+//			for(int j=i+1;j<array.length;j++) {
+//				if(array[i]==array[j]) {
+//					System.out.println("The duplicate element is: "+array[j]);
+//				}
+//			
+//			}
+//		}
+//	
+//	
+//	}
+//	
+//
+//}
